@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1203EB8421ADB483003F7029 /* ApprovedOrDeniedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203EB8321ADB483003F7029 /* ApprovedOrDeniedViewController.swift */; };
+		1208CB6E21C2D156000712D6 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1208CB6D21C2D156000712D6 /* EntryViewController.swift */; };
 		120ECEBA2190B067008C7FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120ECEB92190B067008C7FA5 /* AppDelegate.swift */; };
 		120ECEBC2190B067008C7FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120ECEBB2190B067008C7FA5 /* ViewController.swift */; };
 		120ECEBF2190B067008C7FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120ECEBD2190B067008C7FA5 /* Main.storyboard */; };
 		120ECEC12190B06C008C7FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120ECEC02190B06C008C7FA5 /* Assets.xcassets */; };
 		120ECEC42190B06C008C7FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120ECEC22190B06C008C7FA5 /* LaunchScreen.storyboard */; };
+		120ECECC2190B9D2008C7FA5 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120ECECB2190B9D2008C7FA5 /* LoggedInViewController.swift */; };
+		122DDE7621A3289D0003F9C0 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122DDE7521A3289D0003F9C0 /* DriverViewController.swift */; };
+		122DDE7821A328FE0003F9C0 /* RiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122DDE7721A328FE0003F9C0 /* RiderViewController.swift */; };
+		12689A1D21B1AB5300A699A3 /* MassChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12689A1C21B1AB5300A699A3 /* MassChoiceViewController.swift */; };
+		12689A1F21B1AD2900A699A3 /* CorrectInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12689A1E21B1AD2900A699A3 /* CorrectInfoViewController.swift */; };
+		12E09CB221C960C000DB0759 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E09CB121C960C000DB0759 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1203EB8321ADB483003F7029 /* ApprovedOrDeniedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedOrDeniedViewController.swift; sourceTree = "<group>"; };
+		1208CB6D21C2D156000712D6 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		120ECEB62190B067008C7FA5 /* WheelsToWorship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelsToWorship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		120ECEB92190B067008C7FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		120ECEBB2190B067008C7FA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		120ECEC02190B06C008C7FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120ECEC32190B06C008C7FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120ECEC52190B06C008C7FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120ECECB2190B9D2008C7FA5 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		122DDE7521A3289D0003F9C0 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		122DDE7721A328FE0003F9C0 /* RiderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderViewController.swift; sourceTree = "<group>"; };
+		12689A1C21B1AB5300A699A3 /* MassChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassChoiceViewController.swift; sourceTree = "<group>"; };
+		12689A1E21B1AD2900A699A3 /* CorrectInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectInfoViewController.swift; sourceTree = "<group>"; };
+		12E09CB121C960C000DB0759 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,14 @@
 				120ECEB92190B067008C7FA5 /* AppDelegate.swift */,
 				120ECEBB2190B067008C7FA5 /* ViewController.swift */,
 				120ECEBD2190B067008C7FA5 /* Main.storyboard */,
+				12E09CB121C960C000DB0759 /* CreateAccountViewController.swift */,
+				1208CB6D21C2D156000712D6 /* EntryViewController.swift */,
+				12689A1E21B1AD2900A699A3 /* CorrectInfoViewController.swift */,
+				12689A1C21B1AB5300A699A3 /* MassChoiceViewController.swift */,
+				1203EB8321ADB483003F7029 /* ApprovedOrDeniedViewController.swift */,
+				122DDE7721A328FE0003F9C0 /* RiderViewController.swift */,
+				122DDE7521A3289D0003F9C0 /* DriverViewController.swift */,
+				120ECECB2190B9D2008C7FA5 /* LoggedInViewController.swift */,
 				120ECEC02190B06C008C7FA5 /* Assets.xcassets */,
 				120ECEC22190B06C008C7FA5 /* LaunchScreen.storyboard */,
 				120ECEC52190B06C008C7FA5 /* Info.plist */,
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E09CB221C960C000DB0759 /* CreateAccountViewController.swift in Sources */,
+				122DDE7821A328FE0003F9C0 /* RiderViewController.swift in Sources */,
+				122DDE7621A3289D0003F9C0 /* DriverViewController.swift in Sources */,
+				120ECECC2190B9D2008C7FA5 /* LoggedInViewController.swift in Sources */,
+				12689A1D21B1AB5300A699A3 /* MassChoiceViewController.swift in Sources */,
+				1203EB8421ADB483003F7029 /* ApprovedOrDeniedViewController.swift in Sources */,
+				1208CB6E21C2D156000712D6 /* EntryViewController.swift in Sources */,
 				120ECEBC2190B067008C7FA5 /* ViewController.swift in Sources */,
 				120ECEBA2190B067008C7FA5 /* AppDelegate.swift in Sources */,
+				12689A1F21B1AD2900A699A3 /* CorrectInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
